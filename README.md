@@ -77,7 +77,7 @@ To recreate the two environments used in the pipeline, you can use the yaml file
 
     - **pacbio** Contains most of the dependencies for the pipeline, including
       pbmm2, ft and jasmine.
-      
+
     - **fiber_sq** Used only for snakemake and called only in the running script. 
 
 
@@ -242,7 +242,7 @@ versions, the important ones are those ending with
 was done.
 
 <figure>
-<img src="figures/directory_structure.png"
+<img src="workflow/figures/directory_structure.png"
 alt="Output directory structure" />
 <figcaption aria-hidden="true">Output directory structure</figcaption>
 </figure>
