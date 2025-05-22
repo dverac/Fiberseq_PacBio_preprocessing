@@ -1,0 +1,17 @@
+## Config file for pacbio-preprocessing pipeline
+
+out_dir: "/project/spott/1_Shared_projects/LCL_Fiber_seq/tmp2"
+
+## Size of samples: high coverage? or low. 
+high_cov: "Yes"
+
+## Phasing: Only use this if you have a close sample VCF for phasing. Since we are not calling variants. 
+phasing: "Yes"
+
+vcf: "/project/spott/reference/YRI_genotypes/human.YRI.hg38.all.AF.gencode.vcf.gz" ## LCLs VCF from Gilad lab.
+
+samples:
+   test: "/project/spott/1_Shared_projects/LCL_Fiber_seq/Data/test.bam"
+
+vcf_sm:
+  test: "NA19099"

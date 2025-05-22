@@ -1,0 +1,16 @@
+## Omit within workflow files.
+workflow/remove_kinetics.pl
+workflow/*html
+workflow/figures/*pdf
+
+## Omit files and directories.
+*html
+misc_scripts/
+profiles/
+.snakemake/ 
+.DS_Store
+
+## Omit logs and reports.
+logs/
+*out
+*err

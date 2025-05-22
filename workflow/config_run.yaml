@@ -1,0 +1,10 @@
+## Config file for pacbio-preprocessing pipeline
+
+out_dir: "/project/spott/1_Shared_projects/LCL_Fiber_seq/test/preprocessing"
+
+## Phasing: Only use this if you have a close sample VCF for phasing. Since we are not calling variants. 
+phasing: "Yes"
+multi_vcf: "/project/spott/reference/YRI_genotypes/human.YRI.hg38.all.AF.gencode.vcf.gz" ## LCLs VCF from Gilad lab.
+
+samples:
+   m84241_250117_150907_s1.hifi.bc2107: "/project/spott/1_Shared_projects/LCL_Fiber_seq/Data/hifi/m84241_250117_150907_s1.hifi_reads.bc2107.bam"
